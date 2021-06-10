@@ -11,6 +11,7 @@ def translation():
         text = request.args.get('text')
         return str(translate(lang_from, lang_to, text))
 
+
 @app.route("/")
 def home():
     return "For Translate go to /translate."

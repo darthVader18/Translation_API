@@ -7,3 +7,4 @@ def translate(lang_from, lang_to, text):
     translator= Translator(from_lang = lang_from, to_lang = lang_to)
     translation = translator.translate(text)
     return translation
+
